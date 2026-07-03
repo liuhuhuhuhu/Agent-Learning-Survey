@@ -54,7 +54,7 @@ ERL achieves the best overall success rate (56.1%), outperforming the ReAct base
 This paper is an important example of the Evolution Layer because it studies how agents transform past experience into reusable knowledge. Rather than memorizing trajectories, ERL extracts transferable reasoning heuristics, making it closely related to Reflexion, ExpeL, and ReasoningBank. It also demonstrates that selective retrieval of learned experience is critical for continual self-improvement. :contentReference[oaicite:7]{index=7}
 
 
-## 6. Limitations / open questions (1–2 sentences)
+## 6. Limitations / open questions 
 
 ERL depends on reliable success/failure feedback and assumes that useful heuristics can be extracted immediately after each task. It does not address long-term heuristic maintenance, conflict resolution between stored heuristics, or memory scaling as the experience pool grows. :contentReference[oaicite:8]{index=8}
 
@@ -64,8 +64,7 @@ ERL depends on reliable success/failure feedback and assumes that useful heurist
 Instead of remembering every experience, LLM agents improve more effectively by distilling each experience into reusable heuristics and retrieving only the most relevant ones for future tasks.
 
 
-# Coding flags (copy into the matrix row)
-
+# Coding flags
 memory: 1
 
 learning: 1
